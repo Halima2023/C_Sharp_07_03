@@ -7,7 +7,7 @@ PrintArray(array);
 int[] MakeArray()
 {
     int[] arr = new int[8];
-    for(int i = 0; i < 8; i++)
+    for (int i = 0; i < 8; i++)
     {
         arr[i] = GenerateNumber();
     }
@@ -20,7 +20,7 @@ int GenerateNumber()
     return number;
 
 }
-void PrintArray (int[] array)
+void PrintArray(int[] array)
 {
     for (int i = 0; i < array.Length; i++)
     {

@@ -26,6 +26,3 @@ int MultiplyNumbers(int n)
     }
     return multi;
 }
-
-
-
