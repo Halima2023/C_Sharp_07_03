@@ -16,9 +16,9 @@ int[] EightMass(int size, int from, int to)
 {
     int[] arr = new int[size];
 
-    for (int i = 0;  i < size; i++)
+    for (int i = 0; i < size; i++)
         arr[i] = new Random().Next(from, to + 1);
-return arr;
+    return arr;
 }
 
 int num = int.Parse(Console.ReadLine()!);
