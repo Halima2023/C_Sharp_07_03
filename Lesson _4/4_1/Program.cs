@@ -3,7 +3,7 @@
 //    456 -> 3, 78 -> 2, 89126 -> 5
 
 int num = GetUserNumber();
-int digits = CountNumbers(num);
+int digits = CountNumbers(num); 
 Console.WriteLine(digits);
 
 int GetUserNumber()
